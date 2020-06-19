@@ -1,0 +1,50 @@
+/***************************************
+    Head Text
+***************************************/
+
+@headings:
+{
+    // You'd think this could be done with a loop, but I can't figure out variable variable names in LESS...
+
+    @font-size:
+    {
+
+        @6: calc(var(--head--font-size) + (0 * var(--rel-step)));
+        @5: calc(var(--head--font-size) + (1 * var(--rel-step)));
+        @4: calc(var(--head--font-size) + (2 * var(--rel-step)));
+        @3: calc(var(--head--font-size) + (3 * var(--rel-step)));
+        @2: calc(var(--head--font-size) + (4 * var(--rel-step)));
+        @1: calc(var(--head--font-size) + (5 * var(--rel-step)));
+    }
+
+    @font-weight:
+    {
+        @6: 400;
+        @5: 500;
+        @4: 600;
+        @3: 700;
+        @2: 800;
+        @1: 900;
+    }
+}
+
+.build-headings(@level) when (isnumber(@level)) and (@level > 0)
+{
+    .build-headings((@level - 1));
+
+    h@{level}
+    {
+        --size: @headings[@font-size][@@level];
+        --weight: @headings[@font-weight][@@level];
+
+        font-family: var(--head--font-family);
+        font-size: var(--size);
+        font-weight: var(--weight);
+
+        color: var(--head--fg-color);
+
+        margin-inline: calc(var(--size) / 4);
+    }
+}
+
+.build-headings(6);

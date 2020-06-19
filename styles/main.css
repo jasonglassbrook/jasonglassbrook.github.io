@@ -1,0 +1,378 @@
+/***********************************************************
+    Root
+***********************************************************/
+/***************************************
+    Fonts
+***************************************/
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/firacode/v8/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_GNsFVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/firacode/v8/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_D1sFVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/firacode/v8/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_A9sFVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/firacode/v8/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_ONrFVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/firacode/v8/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_NprFVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hepta Slab';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heptaslab/v7/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5jfb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hepta Slab';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heptaslab/v7/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvmV5zfb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hepta Slab';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heptaslab/v7/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvlL5zfb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hepta Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heptaslab/v7/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5zfb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hepta Slab';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heptaslab/v7/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvkn5zfb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hepta Slab';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heptaslab/v7/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvnL4Dfb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hepta Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heptaslab/v7/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvny4Dfb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hepta Slab';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heptaslab/v7/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvmV4Dfb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hepta Slab';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heptaslab/v7/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5Hvm84Dfb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Rubik Light Italic'), local('Rubik-LightItalic'), url(https://fonts.gstatic.com/s/rubik/v9/iJWBBXyIfDnIV7nEldWY8WU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Rubik Italic'), local('Rubik-Italic'), url(https://fonts.gstatic.com/s/rubik/v9/iJWEBXyIfDnIV7nErXk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Rubik Medium Italic'), local('Rubik-MediumItalic'), url(https://fonts.gstatic.com/s/rubik/v9/iJWBBXyIfDnIV7nElY2Z8WU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Rubik Bold Italic'), local('Rubik-BoldItalic'), url(https://fonts.gstatic.com/s/rubik/v9/iJWBBXyIfDnIV7nElcWf8WU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Rubik Black Italic'), local('Rubik-BlackItalic'), url(https://fonts.gstatic.com/s/rubik/v9/iJWBBXyIfDnIV7nElf2d8WU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Rubik Light'), local('Rubik-Light'), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7Fqj1ma.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Rubik'), local('Rubik-Regular'), url(https://fonts.gstatic.com/s/rubik/v9/iJWKBXyIfDnIV4nG.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Rubik Medium'), local('Rubik-Medium'), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7Eyjlma.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Rubik Bold'), local('Rubik-Bold'), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7F6iFma.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Rubik Black'), local('Rubik-Black'), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7FCilma.ttf) format('truetype');
+}
+:root {
+  --font-size: 1.6rem;
+  --head--font-family: 'Hepta Slab', serif;
+  --head--font-size: var(--font-size);
+  --head--fg-color: var(--near-black);
+  --body--font-family: 'Rubik', sans-serif;
+  --body--font-size: var(--font-size);
+  --body--fg-color: var(--black);
+  --mono--font-family: 'Fira Code', monospace;
+  --mono--font-size: var(--font-size);
+  --mono--fg-color: var(--near-black);
+  --tail--font-family: 'Rubik', sans-serif;
+  --tail--font-size: var(--font-size);
+  --tail--fg-color: var(--semi-black);
+}
+/***************************************
+    Colors
+***************************************/
+:root {
+  --black: Black;
+  --white: White;
+  --near-black: #0d0d0d;
+  --near-white: #f2f2f2;
+  --semi-black: #333333;
+  --semi-white: #cccccc;
+  /* THANKS: https://tailwindcss.com/docs/customizing-colors#red */
+  --red-100: #FFF5F5;
+  --red-200: #FED7D7;
+  --red-300: #FEB2B2;
+  --red-400: #FC8181;
+  --red-500: #F56565;
+  --red-600: #E53E3E;
+  --red-700: #C53030;
+  --red-800: #9B2C2C;
+  --red-900: #742A2A;
+  /* THANKS: https://tailwindcss.com/docs/customizing-colors#yellow */
+  --yellow-100: #FFFFF0;
+  --yellow-200: #FEFCBF;
+  --yellow-300: #FAF089;
+  --yellow-400: #F6E05E;
+  --yellow-500: #ECC94B;
+  --yellow-600: #D69E2E;
+  --yellow-700: #B7791F;
+  --yellow-800: #975A16;
+  --yellow-900: #744210;
+  /* THANKS: https://tailwindcss.com/docs/customizing-colors#green */
+  --green-100: #F0FFF4;
+  --green-200: #C6F6D5;
+  --green-300: #9AE6B4;
+  --green-400: #68D391;
+  --green-500: #48BB78;
+  --green-600: #38A169;
+  --green-700: #2F855A;
+  --green-800: #276749;
+  --green-900: #22543D;
+  /* THANKS: https://tailwindcss.com/docs/customizing-colors#purple */
+  --purple-100: #FAF5FF;
+  --purple-200: #E9D8FD;
+  --purple-300: #D6BCFA;
+  --purple-400: #B794F4;
+  --purple-500: #9F7AEA;
+  --purple-600: #805AD5;
+  --purple-700: #6B46C1;
+  --purple-800: #553C9A;
+  --purple-900: #44337A;
+}
+/***************************************
+    Sizes
+***************************************/
+:root {
+  /* Reasonable Defaults */
+  font-size: 62.5%;
+  /* Absolute Sizes */
+  --abs-base: 2px;
+  --abs-scale: 2;
+  --abs-1: calc(var(--abs-2) / var(--abs-scale));
+  --abs-2: var(--abs-base);
+  --abs-3: calc(var(--abs-2) * var(--abs-scale));
+  --abs-4: calc(var(--abs-3) * var(--abs-scale));
+  --abs-5: calc(var(--abs-4) * var(--abs-scale));
+  --abs-6: calc(var(--abs-5) * var(--abs-scale));
+  --abs-7: calc(var(--abs-6) * var(--abs-scale));
+  --abs-8: calc(var(--abs-7) * var(--abs-scale));
+  --abs-9: calc(var(--abs-8) * var(--abs-scale));
+  --abs-10: calc(var(--abs-9) * var(--abs-scale));
+  /* Relative Sizes */
+  --rel-step: 0.5rem;
+  --rel-1: calc(0 + var(--rel-step));
+  --rel-2: calc(var(--rel-1) + var(--rel-step));
+  --rel-3: calc(var(--rel-2) + var(--rel-step));
+  --rel-4: calc(var(--rel-3) + var(--rel-step));
+  --rel-5: calc(var(--rel-4) + var(--rel-step));
+  --rel-6: calc(var(--rel-5) + var(--rel-step));
+  --rel-7: calc(var(--rel-6) + var(--rel-step));
+  --rel-8: calc(var(--rel-7) + var(--rel-step));
+  --rel-9: calc(var(--rel-8) + var(--rel-step));
+  --rel-10: calc(var(--rel-9) + var(--rel-step));
+}
+/***********************************************************
+    Base
+***********************************************************/
+/***************************************
+    Sizing
+***************************************/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-clip: padding-box;
+}
+html,
+body {
+  width: 100%;
+}
+/***************************************
+    Head Text
+***************************************/
+h1 {
+  --size: calc(var(--head--font-size) + (5 * var(--rel-step)));
+  --weight: 900;
+  font-family: var(--head--font-family);
+  font-size: var(--size);
+  font-weight: var(--weight);
+  color: var(--head--fg-color);
+  margin-inline: calc(var(--size) / 4);
+}
+h2 {
+  --size: calc(var(--head--font-size) + (4 * var(--rel-step)));
+  --weight: 800;
+  font-family: var(--head--font-family);
+  font-size: var(--size);
+  font-weight: var(--weight);
+  color: var(--head--fg-color);
+  margin-inline: calc(var(--size) / 4);
+}
+h3 {
+  --size: calc(var(--head--font-size) + (3 * var(--rel-step)));
+  --weight: 700;
+  font-family: var(--head--font-family);
+  font-size: var(--size);
+  font-weight: var(--weight);
+  color: var(--head--fg-color);
+  margin-inline: calc(var(--size) / 4);
+}
+h4 {
+  --size: calc(var(--head--font-size) + (2 * var(--rel-step)));
+  --weight: 600;
+  font-family: var(--head--font-family);
+  font-size: var(--size);
+  font-weight: var(--weight);
+  color: var(--head--fg-color);
+  margin-inline: calc(var(--size) / 4);
+}
+h5 {
+  --size: calc(var(--head--font-size) + (1 * var(--rel-step)));
+  --weight: 500;
+  font-family: var(--head--font-family);
+  font-size: var(--size);
+  font-weight: var(--weight);
+  color: var(--head--fg-color);
+  margin-inline: calc(var(--size) / 4);
+}
+h6 {
+  --size: calc(var(--head--font-size) + (0 * var(--rel-step)));
+  --weight: 400;
+  font-family: var(--head--font-family);
+  font-size: var(--size);
+  font-weight: var(--weight);
+  color: var(--head--fg-color);
+  margin-inline: calc(var(--size) / 4);
+}
+/***************************************
+        Body Text
+***************************************/
+body {
+  font-family: var(--body--font-family);
+  font-size: var(--body--font-size);
+  color: var(--body--fg-color);
+}
+p {
+  margin-inline: var(--rel-2);
+}
+p:first-child {
+  margin-inline-start: 0;
+}
+p:last-child {
+  margin-inline-end: 0;
+}
+a {
+  color: var(--purple-600);
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+a:visited {
+  color: var(--purple-800);
+}
+/***********************************************************
+  Media
+***********************************************************/

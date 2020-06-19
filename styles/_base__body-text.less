@@ -1,0 +1,41 @@
+/***************************************
+        Body Text
+***************************************/
+
+body
+{
+    font-family: var(--body--font-family);
+    font-size: var(--body--font-size);
+
+    color: var(--body--fg-color);
+}
+
+p
+{
+    margin-inline: var(--rel-2);
+
+    &:first-child
+    {
+        margin-inline-start: 0;
+    }
+    &:last-child
+    {
+        margin-inline-end: 0;
+    }
+}
+
+a
+{
+    color: var(--purple-600);
+    text-decoration: none;
+
+    &:hover, &:active
+    {
+        text-decoration: underline;
+    }
+
+    &:visited
+    {
+        color: var(--purple-800);
+    }
+}
