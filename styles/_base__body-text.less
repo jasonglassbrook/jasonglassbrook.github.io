@@ -4,10 +4,22 @@
 
 body
 {
-    font-family: var(--body--font-family);
-    font-size: var(--body--font-size);
+    --family: var(--body--font-family);
+    --size: var(--body--font-size);
+    // --space: calc(var(--size) / 2);
+    --weight: var(--body--font-weight--normal);
+    --color: var(--semi-black);
 
-    color: var(--body--fg-color);
+    font-family: var(--family);
+    font-size: var(--size);
+    font-weight: var(--weight);
+
+    color: var(--near-black);
+
+    b, strong
+    {
+        --weight: var(--body--font-weight--heavy);
+    }
 }
 
 p
