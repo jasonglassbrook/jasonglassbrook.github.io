@@ -2,8 +2,7 @@
   Body Text
 ***************************************/
 
-body
-{
+body {
   --family: var(--body--font-family);
   --size: var(--body--font-size);
   // --space: calc(var(--size) / 2);
@@ -16,38 +15,33 @@ body
 
   color: var(--near-black);
 
-  b, strong
-  {
+  b,
+  strong {
     --weight: var(--body--font-weight--heavy);
   }
 }
 
-p
-{
+p {
   margin-inline: var(--rel-2);
 
-  &:first-child
-  {
+  &:first-child {
     margin-inline-start: 0;
   }
-  &:last-child
-  {
+  &:last-child {
     margin-inline-end: 0;
   }
 }
 
-a
-{
+a {
   color: var(--purple-600);
   text-decoration: none;
 
-  &:hover, &:active
-  {
+  &:hover,
+  &:active {
     text-decoration: underline;
   }
 
-  &:visited
-  {
+  &:visited {
     color: var(--purple-800);
   }
 }

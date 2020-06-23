@@ -5,180 +5,222 @@
   Fonts
 ***************************************/
 @font-face {
-  font-family: 'Alegreya';
+  font-family: "Alegreya";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Alegreya Italic'), local('Alegreya-Italic'), url(https://fonts.gstatic.com/s/alegreya/v13/4UaHrEBBsBhlBjvfkSLkx60.ttf) format('truetype');
+  src: local("Alegreya Italic"), local("Alegreya-Italic"),
+    url(https://fonts.gstatic.com/s/alegreya/v13/4UaHrEBBsBhlBjvfkSLkx60.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya';
+  font-family: "Alegreya";
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: local('Alegreya Bold Italic'), local('Alegreya-BoldItalic'), url(https://fonts.gstatic.com/s/alegreya/v13/4UaErEBBsBhlBjvfkSLk_xHMwps.ttf) format('truetype');
+  src: local("Alegreya Bold Italic"), local("Alegreya-BoldItalic"),
+    url(https://fonts.gstatic.com/s/alegreya/v13/4UaErEBBsBhlBjvfkSLk_xHMwps.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya';
+  font-family: "Alegreya";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Alegreya Regular'), local('Alegreya-Regular'), url(https://fonts.gstatic.com/s/alegreya/v13/4UaBrEBBsBhlBjvfkRLm.ttf) format('truetype');
+  src: local("Alegreya Regular"), local("Alegreya-Regular"),
+    url(https://fonts.gstatic.com/s/alegreya/v13/4UaBrEBBsBhlBjvfkRLm.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya';
+  font-family: "Alegreya";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Alegreya Bold'), local('Alegreya-Bold'), url(https://fonts.gstatic.com/s/alegreya/v13/4UaGrEBBsBhlBjvfkSpa4o3J.ttf) format('truetype');
+  src: local("Alegreya Bold"), local("Alegreya-Bold"),
+    url(https://fonts.gstatic.com/s/alegreya/v13/4UaGrEBBsBhlBjvfkSpa4o3J.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya SC';
+  font-family: "Alegreya SC";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Alegreya SC Italic'), local('AlegreyaSC-Italic'), url(https://fonts.gstatic.com/s/alegreyasc/v11/taiMGmRtCJ62-O0HhNEa-Z6q2ZU.ttf) format('truetype');
+  src: local("Alegreya SC Italic"), local("AlegreyaSC-Italic"),
+    url(https://fonts.gstatic.com/s/alegreyasc/v11/taiMGmRtCJ62-O0HhNEa-Z6q2ZU.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya SC';
+  font-family: "Alegreya SC";
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: local('Alegreya SC Bold Italic'), local('AlegreyaSC-BoldItalic'), url(https://fonts.gstatic.com/s/alegreyasc/v11/taiRGmRtCJ62-O0HhNEa-Z6q4Sk0SK8.ttf) format('truetype');
+  src: local("Alegreya SC Bold Italic"), local("AlegreyaSC-BoldItalic"),
+    url(https://fonts.gstatic.com/s/alegreyasc/v11/taiRGmRtCJ62-O0HhNEa-Z6q4Sk0SK8.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya SC';
+  font-family: "Alegreya SC";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Alegreya SC Regular'), local('AlegreyaSC-Regular'), url(https://fonts.gstatic.com/s/alegreyasc/v11/taiOGmRtCJ62-O0HhNEa-a6o.ttf) format('truetype');
+  src: local("Alegreya SC Regular"), local("AlegreyaSC-Regular"),
+    url(https://fonts.gstatic.com/s/alegreyasc/v11/taiOGmRtCJ62-O0HhNEa-a6o.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya SC';
+  font-family: "Alegreya SC";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Alegreya SC Bold'), local('AlegreyaSC-Bold'), url(https://fonts.gstatic.com/s/alegreyasc/v11/taiTGmRtCJ62-O0HhNEa-ZYU_LUx.ttf) format('truetype');
+  src: local("Alegreya SC Bold"), local("AlegreyaSC-Bold"),
+    url(https://fonts.gstatic.com/s/alegreyasc/v11/taiTGmRtCJ62-O0HhNEa-ZYU_LUx.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya Sans';
+  font-family: "Alegreya Sans";
   font-style: italic;
   font-weight: 100;
   font-display: swap;
-  src: local('Alegreya Sans Thin Italic'), local('AlegreyaSans-ThinItalic'), url(https://fonts.gstatic.com/s/alegreyasans/v10/5aUv9_-1phKLFgshYDvh6Vwt7V9V3G1W.ttf) format('truetype');
+  src: local("Alegreya Sans Thin Italic"), local("AlegreyaSans-ThinItalic"),
+    url(https://fonts.gstatic.com/s/alegreyasans/v10/5aUv9_-1phKLFgshYDvh6Vwt7V9V3G1W.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya Sans';
+  font-family: "Alegreya Sans";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Alegreya Sans Italic'), local('AlegreyaSans-Italic'), url(https://fonts.gstatic.com/s/alegreyasans/v10/5aUt9_-1phKLFgshYDvh6Vwt7V9tuA.ttf) format('truetype');
+  src: local("Alegreya Sans Italic"), local("AlegreyaSans-Italic"),
+    url(https://fonts.gstatic.com/s/alegreyasans/v10/5aUt9_-1phKLFgshYDvh6Vwt7V9tuA.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya Sans';
+  font-family: "Alegreya Sans";
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: local('Alegreya Sans Bold Italic'), local('AlegreyaSans-BoldItalic'), url(https://fonts.gstatic.com/s/alegreyasans/v10/5aUo9_-1phKLFgshYDvh6Vwt7V9VBEh2jg.ttf) format('truetype');
+  src: local("Alegreya Sans Bold Italic"), local("AlegreyaSans-BoldItalic"),
+    url(https://fonts.gstatic.com/s/alegreyasans/v10/5aUo9_-1phKLFgshYDvh6Vwt7V9VBEh2jg.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya Sans';
+  font-family: "Alegreya Sans";
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: local('Alegreya Sans Thin'), local('AlegreyaSans-Thin'), url(https://fonts.gstatic.com/s/alegreyasans/v10/5aUt9_-1phKLFgshYDvh6Vwt5TltuA.ttf) format('truetype');
+  src: local("Alegreya Sans Thin"), local("AlegreyaSans-Thin"),
+    url(https://fonts.gstatic.com/s/alegreyasans/v10/5aUt9_-1phKLFgshYDvh6Vwt5TltuA.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya Sans';
+  font-family: "Alegreya Sans";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Alegreya Sans Regular'), local('AlegreyaSans-Regular'), url(https://fonts.gstatic.com/s/alegreyasans/v10/5aUz9_-1phKLFgshYDvh6Vwt3V0.ttf) format('truetype');
+  src: local("Alegreya Sans Regular"), local("AlegreyaSans-Regular"),
+    url(https://fonts.gstatic.com/s/alegreyasans/v10/5aUz9_-1phKLFgshYDvh6Vwt3V0.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya Sans';
+  font-family: "Alegreya Sans";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Alegreya Sans Bold'), local('AlegreyaSans-Bold'), url(https://fonts.gstatic.com/s/alegreyasans/v10/5aUu9_-1phKLFgshYDvh6Vwt5eFImE0.ttf) format('truetype');
+  src: local("Alegreya Sans Bold"), local("AlegreyaSans-Bold"),
+    url(https://fonts.gstatic.com/s/alegreyasans/v10/5aUu9_-1phKLFgshYDvh6Vwt5eFImE0.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya Sans SC';
+  font-family: "Alegreya Sans SC";
   font-style: italic;
   font-weight: 100;
   font-display: swap;
-  src: local('Alegreya Sans SC Thin Italic'), local('AlegreyaSansSC-ThinItalic'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGl4-RGJqfMvt7P8FUr0Q1j-Hf1BkxdlgRB.ttf) format('truetype');
+  src: local("Alegreya Sans SC Thin Italic"), local("AlegreyaSansSC-ThinItalic"),
+    url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGl4-RGJqfMvt7P8FUr0Q1j-Hf1BkxdlgRB.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya Sans SC';
+  font-family: "Alegreya Sans SC";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('Alegreya Sans SC Italic'), local('AlegreyaSansSC-Italic'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGn4-RGJqfMvt7P8FUr0Q1j-Hf1Bkxl8g.ttf) format('truetype');
+  src: local("Alegreya Sans SC Italic"), local("AlegreyaSansSC-Italic"),
+    url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGn4-RGJqfMvt7P8FUr0Q1j-Hf1Bkxl8g.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya Sans SC';
+  font-family: "Alegreya Sans SC";
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: local('Alegreya Sans SC Bold Italic'), local('AlegreyaSansSC-BoldItalic'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGk4-RGJqfMvt7P8FUr0Q1j-Hf1BkxdTiFhNQ.ttf) format('truetype');
+  src: local("Alegreya Sans SC Bold Italic"), local("AlegreyaSansSC-BoldItalic"),
+    url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGk4-RGJqfMvt7P8FUr0Q1j-Hf1BkxdTiFhNQ.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya Sans SC';
+  font-family: "Alegreya Sans SC";
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: local('Alegreya Sans SC Thin'), local('AlegreyaSansSC-Thin'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGn4-RGJqfMvt7P8FUr0Q1j-Hf1Dipl8g.ttf) format('truetype');
+  src: local("Alegreya Sans SC Thin"), local("AlegreyaSansSC-Thin"),
+    url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGn4-RGJqfMvt7P8FUr0Q1j-Hf1Dipl8g.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya Sans SC';
+  font-family: "Alegreya Sans SC";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Nk4.ttf) format('truetype');
+  src: local("Alegreya Sans SC Regular"), local("AlegreyaSansSC-Regular"),
+    url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Nk4.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Alegreya Sans SC';
+  font-family: "Alegreya Sans SC";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Alegreya Sans SC Bold'), local('AlegreyaSansSC-Bold'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGm4-RGJqfMvt7P8FUr0Q1j-Hf1DvJA0iQ.ttf) format('truetype');
+  src: local("Alegreya Sans SC Bold"), local("AlegreyaSansSC-Bold"),
+    url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGm4-RGJqfMvt7P8FUr0Q1j-Hf1DvJA0iQ.ttf)
+      format("truetype");
 }
 @font-face {
-  font-family: 'Fira Code';
+  font-family: "Fira Code";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firacode/v8/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_D1sFVc.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/firacode/v8/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_D1sFVc.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Fira Code';
+  font-family: "Fira Code";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firacode/v8/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_NprFVc.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/firacode/v8/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_NprFVc.ttf)
+    format("truetype");
 }
 :root {
   --font-size: 1.6rem;
-  --head--font-family: 'Alegreya', serif;
+  --head--font-family: "Alegreya", serif;
   --head--font-size: var(--font-size);
   --head--font-weight--normal: 400;
   --head--font-weight--heavy: 700;
-  --head-sc--font-family: 'Alegreya SC', serif;
+  --head-sc--font-family: "Alegreya SC", serif;
   --head-sc--font-size: var(--head--font-size);
-  --body--font-family: 'Alegreya Sans', serif;
+  --body--font-family: "Alegreya Sans", serif;
   --body--font-size: var(--font-size);
   --body--font-weight--normal: 400;
   --body--font-weight--heavy: 700;
-  --body-sc--font-family: 'Alegreya Sans SC', serif;
+  --body-sc--font-family: "Alegreya Sans SC", serif;
   --body-sc--font-size: var(--body--font-size);
-  --tail--font-family: 'Alegreya Sans', serif;
+  --tail--font-family: "Alegreya Sans", serif;
   --tail--font-size: var(--font-size);
   --tail--font-weight--normal: 100;
   --tail--font-weight--heavy: 400;
-  --tail-sc--font-family: 'Alegreya Sans SC', serif;
+  --tail-sc--font-family: "Alegreya Sans SC", serif;
   --tail-sc--font-size: var(--tail--font-size);
-  --mono--font-family: 'Fira Code', monospace;
+  --mono--font-family: "Fira Code", monospace;
   --mono--font-size: var(--font-size);
   --mono--font-weight--normal: 400;
   --mono--font-weight--heavy: 700;
@@ -194,45 +236,45 @@
   --semi-black: #333333;
   --semi-white: #cccccc;
   /* THANKS: https://tailwindcss.com/docs/customizing-colors#red */
-  --red-100: #FFF5F5;
-  --red-200: #FED7D7;
-  --red-300: #FEB2B2;
-  --red-400: #FC8181;
-  --red-500: #F56565;
-  --red-600: #E53E3E;
-  --red-700: #C53030;
-  --red-800: #9B2C2C;
-  --red-900: #742A2A;
+  --red-100: #fff5f5;
+  --red-200: #fed7d7;
+  --red-300: #feb2b2;
+  --red-400: #fc8181;
+  --red-500: #f56565;
+  --red-600: #e53e3e;
+  --red-700: #c53030;
+  --red-800: #9b2c2c;
+  --red-900: #742a2a;
   /* THANKS: https://tailwindcss.com/docs/customizing-colors#yellow */
-  --yellow-100: #FFFFF0;
-  --yellow-200: #FEFCBF;
-  --yellow-300: #FAF089;
-  --yellow-400: #F6E05E;
-  --yellow-500: #ECC94B;
-  --yellow-600: #D69E2E;
-  --yellow-700: #B7791F;
-  --yellow-800: #975A16;
+  --yellow-100: #fffff0;
+  --yellow-200: #fefcbf;
+  --yellow-300: #faf089;
+  --yellow-400: #f6e05e;
+  --yellow-500: #ecc94b;
+  --yellow-600: #d69e2e;
+  --yellow-700: #b7791f;
+  --yellow-800: #975a16;
   --yellow-900: #744210;
   /* THANKS: https://tailwindcss.com/docs/customizing-colors#green */
-  --green-100: #F0FFF4;
-  --green-200: #C6F6D5;
-  --green-300: #9AE6B4;
-  --green-400: #68D391;
-  --green-500: #48BB78;
-  --green-600: #38A169;
-  --green-700: #2F855A;
+  --green-100: #f0fff4;
+  --green-200: #c6f6d5;
+  --green-300: #9ae6b4;
+  --green-400: #68d391;
+  --green-500: #48bb78;
+  --green-600: #38a169;
+  --green-700: #2f855a;
   --green-800: #276749;
-  --green-900: #22543D;
+  --green-900: #22543d;
   /* THANKS: https://tailwindcss.com/docs/customizing-colors#purple */
-  --purple-100: #FAF5FF;
-  --purple-200: #E9D8FD;
-  --purple-300: #D6BCFA;
-  --purple-400: #B794F4;
-  --purple-500: #9F7AEA;
-  --purple-600: #805AD5;
-  --purple-700: #6B46C1;
-  --purple-800: #553C9A;
-  --purple-900: #44337A;
+  --purple-100: #faf5ff;
+  --purple-200: #e9d8fd;
+  --purple-300: #d6bcfa;
+  --purple-400: #b794f4;
+  --purple-500: #9f7aea;
+  --purple-600: #805ad5;
+  --purple-700: #6b46c1;
+  --purple-800: #553c9a;
+  --purple-900: #44337a;
 }
 /***************************************
   Sizes
@@ -302,6 +344,8 @@ h6 {
   font-size: var(--size);
   font-weight: var(--weight);
   color: var(--color);
+  margin-left: var(--space);
+  margin-right: var(--space);
   margin-inline: var(--space);
 }
 h1 b,
@@ -354,12 +398,28 @@ body strong {
   --weight: var(--body--font-weight--heavy);
 }
 p {
+  margin-left: var(--rel-2);
+  margin-right: var(--rel-2);
   margin-inline: var(--rel-2);
 }
+[dir="ltr"] p:first-child {
+  margin-left: 0;
+}
+[dir="rtl"] p:first-child {
+  margin-right: 0;
+}
 p:first-child {
+  -webkit-margin-start: 0;
   margin-inline-start: 0;
 }
+[dir="ltr"] p:last-child {
+  margin-right: 0;
+}
+[dir="rtl"] p:last-child {
+  margin-left: 0;
+}
 p:last-child {
+  -webkit-margin-end: 0;
   margin-inline-end: 0;
 }
 a {
