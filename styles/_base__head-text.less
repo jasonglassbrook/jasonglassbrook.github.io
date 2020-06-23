@@ -1,53 +1,53 @@
 /***************************************
-    Head Text
+  Head Text
 ***************************************/
 
 @headings:
 {
-    // You'd think this could be done with a loop, but I can't figure out variable variable names in LESS...
+  // You'd think this could be done with a loop, but I can't figure out variable variable names in LESS...
 
-    @font-size:
-    {
+  @font-size:
+  {
 
-        @6: calc(var(--head--font-size) + (0 * var(--rel-step)));
-        @5: calc(var(--head--font-size) + (1 * var(--rel-step)));
-        @4: calc(var(--head--font-size) + (2 * var(--rel-step)));
-        @3: calc(var(--head--font-size) + (3 * var(--rel-step)));
-        @2: calc(var(--head--font-size) + (4 * var(--rel-step)));
-        @1: calc(var(--head--font-size) + (5 * var(--rel-step)));
-    }
+    @6: calc(var(--head--font-size) + (0 * var(--rel-step)));
+    @5: calc(var(--head--font-size) + (1 * var(--rel-step)));
+    @4: calc(var(--head--font-size) + (2 * var(--rel-step)));
+    @3: calc(var(--head--font-size) + (3 * var(--rel-step)));
+    @2: calc(var(--head--font-size) + (4 * var(--rel-step)));
+    @1: calc(var(--head--font-size) + (5 * var(--rel-step)));
+  }
 }
 
 h1, h2, h3, h4, h5, h6
 {
-    --family: var(--head--font-family);
-    /* --size: at h{level}; */
-    --space: calc(var(--size) / 4);
-    --weight: var(--head--font-weight--normal);
-    --color: var(--semi-black);
+  --family: var(--head--font-family);
+  /* --size: at h{level}; */
+  --space: calc(var(--size) / 4);
+  --weight: var(--head--font-weight--normal);
+  --color: var(--semi-black);
 
-    font-family: var(--family);
-    font-size: var(--size);
-    font-weight: var(--weight);
+  font-family: var(--family);
+  font-size: var(--size);
+  font-weight: var(--weight);
 
-    color: var(--color);
+  color: var(--color);
 
-    margin-inline: var(--space);
+  margin-inline: var(--space);
 
-    b, strong
-    {
-        --weight: var(--head--font-weight--heavy);
-    }
+  b, strong
+  {
+    --weight: var(--head--font-weight--heavy);
+  }
 }
 
 .build-headings(@level) when (isnumber(@level)) and (@level > 0)
 {
-    .build-headings((@level - 1));
+  .build-headings((@level - 1));
 
-    h@{level}
-    {
-        --size: @headings[@font-size][@@level];
-    }
+  h@{level}
+  {
+    --size: @headings[@font-size][@@level];
+  }
 }
 
 .build-headings(6);
