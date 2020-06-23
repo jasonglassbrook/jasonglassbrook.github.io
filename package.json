@@ -21,6 +21,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:styles": "echo \"Building...\" && lessc ./styles/main.less ./styles/main.css"
+    "lint": "echo \"Linting...\" && prettier . --write && echo \"Done.\"",
+    "build:styles": "echo \"Building...\" && lessc ./styles/main.less ./styles/main.css && postcss ./styles/main.css --replace && echo \"Done.\""
+  },
+  "devDependencies": {
+    "less": "^3.11.3",
+    "postcss": "^7.0.32",
+    "postcss-cli": "^7.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.0.5"
   }
 }
