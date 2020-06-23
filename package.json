@@ -1,0 +1,26 @@
+{
+  "name": "jasonglassbrook.dev",
+  "version": "0.1.0",
+  "description": "My amazing portfolio website.",
+  "keywords": [
+    "jasonglassbrook",
+    "jason-glassbrook",
+    "portfolio",
+    "website"
+  ],
+  "author": "Jason Glassbrook",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonglassbrook/jasonglassbrook.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonglassbrook/jasonglassbrook.github.io/issues"
+  },
+  "homepage": "https://github.com/jasonglassbrook/jasonglassbrook.github.io#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:styles": "echo \"Building...\" && lessc ./styles/main.less ./styles/main.css"
+  }
+}
